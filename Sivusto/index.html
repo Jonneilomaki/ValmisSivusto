@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>OnlineCV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="tyylit.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    background-image: url(mtausta.jpg);
+    
+}
+@media only screen and (min-width: 600px) {
+  body { 
+     background-image: url('tausta5.jpg');
+     background-size: cover; 
+  }
+}
+
+</style>
+</head>
+<body>
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Etusivu</a>
+        <a href="mina.html">Minä</a>
+        <a href="vapaa.html">Harrastukset ja vapaa-aika</a>
+        <a href="some.html">Yhteystiedot</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+        
+
+<div class="jumbotron text-center">
+    <h1>Tervetuloa sivustolleni!</h1>
+  </div>
+    
+  <div class="container">
+    <div class="row1">
+      <div class="col-sm-8">
+        <p>Moi! Nimeni on Jonne Ilomäki. Opiskelen Laureassa IT-Tradenomiksi. <a href="mina.html">Täältä</a> löydät lisää tietoa minusta.</p><br>
+        <p>Harrastuksiini kuuluu jalkapalloilu, kävelyt, elokuvien/sarjojen katselu sekä ajan kulutus tietokoneella. <a href="vapaa.html">Täältä</a> löytyy lisää tietoa mitä puuhailen vapaa-ajallani. </p><br>
+        <p>Mikäli haluat lähettää minulle viestin, niin<a href="some.html"> tämän</a> sivun kautta minuun voi ottaa yhteyttä sekä löytää sosiaalisen median kanavat joita käytän!</p> 
+      </div>
+
+      <div class="col-sm-4">      
+        <img class="mina" src="jokuvaan.jpg" alt="mina">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Tekijä: Jonne Ilomäki<br>
+    jonne.ilomaki@student.laurea.fi</p>
+  </footer>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
+  
+</body>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>OnlineCV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="tyylit.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    background-image: url(mtausta.jpg);
+    
+}
+@media only screen and (min-width: 600px) {
+  body { 
+     background-image: url('tausta6.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+  }
+}
+.teksti {
+            float: left;
+            width: 100%;
+            min-height: 75px;
+            outline: none;
+            resize: none;
+            border: 1px solid grey;
+        }
+</style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Etusivu</a>
+        <a href="mina.html">Minä</a>
+        <a href="vapaa.html">Harrastukset ja vapaa-aika</a>
+        <a href="some.html">Yhteystiedot</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="jumbotron text-center">
+        <h1>Kanavat, joista minut voi tavoittaa</h1>
+      </div>
+
+      <div class="container">
+        <div class="row1">
+          <div class="col-sm-12">
+            <h2>Yhteystiedot</h2>
+            <p>Facebook: <a href="https://www.facebook.com/Sieneis">Jonne Ilomäki</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/jonneilomaki/">@jonneilomaki</a></p>
+            <p>Sähköposti: jonne.ilomaki@student.laurea.fi / jonne.ilomaki@gmail.com</p>
+            <p>Puh.numero: xxx-xxxxxxx</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row1">
+          <div class="col-sm-12">
+            <h2>Ota yhteyttä!</h2>
+            <form action="/action_page.php">
+              <label for="fname">Etunimi:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Sukunimi:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <label for="email">Sähköposti:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <label for="teksti">Viesti:</label><br>
+              <textarea name="message" class="teksti" rows="8" cols="45"></textarea><br><br>
+              <input type="submit" class="button" value="Lähetä">
+            </form> 
+            
+
+          </div>
+        </div>
+      </div>
+
+    
+
+
+
+    <footer>
+      <p>Tekijä: Jonne Ilomäki<br>
+      jonne.ilomaki@student.laurea.fi</p>
+    </footer>
+
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
