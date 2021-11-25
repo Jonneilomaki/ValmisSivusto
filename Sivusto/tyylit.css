@@ -83,7 +83,7 @@
   a:link {
     color: rgb(114, 53, 53);
     background-color: transparent; 
-    transition: all .5s linear 0;color: rgb(156, 139, 113); 
+    transition: all 0.5s ;color: rgb(156, 139, 113); 
   }
 
   a:visited {
