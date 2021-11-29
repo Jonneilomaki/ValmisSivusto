@@ -149,7 +149,12 @@
     text-align: left;
   }
 }
+@media only screen and (max-width: 600px) {
+  h1 { 
+     font-size: 15px; 
+  }
 
+}
 .button {
   background-color: white;
   color: black;
